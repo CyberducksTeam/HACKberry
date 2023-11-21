@@ -1,9 +1,7 @@
-name: '🚀🌟 Enhancement Request'
+name: '🌐🤝 Networking'
 description: 'Anything networking related regarding the project; e.g.: Connecting with other clubs/individuals/sponsors, planning events etc.'
 title: '[Networking] '
-#labels: ['Topic: Enhancement', 'Status: In Triage']
-#projects: ["sendance/4"]
-#assignees:
+
 
 body:
 - type: markdown
