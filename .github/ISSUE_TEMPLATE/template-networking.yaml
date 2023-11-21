@@ -13,16 +13,9 @@ body:
     value: "# 🌐🤝 Networking"
 - type: input
   attributes:
-    label: Source Type
-    description: Where the this issue/request originates from. E.g. a backlog ticket, QMS-Ticket (PIT) or Customer Feedback, Ideation Workshop Meeting, etc.
-    placeholder: "e.g. 'Backlog'"
-  validations:
-    required: false
-- type: input
-  attributes:
-    label: Source Link
-    description: E.g. a link to the backlog ticket, customer support request, meeting notes etc.
-    placeholder: "E.g. '#xyz' or 'https//...'"
+    label: Source
+    description: Where the this issue/request originates from. E.g. a meeting, suggestions from third parties, other inspiration etc.
+    placeholder: "e.g. 'Meeting with xyz, link:', inspired from: link '"
   validations:
     required: false
 - type: textarea
@@ -34,17 +27,17 @@ body:
 - type: textarea
   attributes:
     label: Additional Information
-    description: Include any additional information or context that might be helpful for reviewers or developers.
+    description: Include any additional information or context that might be helpful for reviewers or asignees.
   validations:
     required: false
 - type: markdown
   attributes:
-    value: "_The following sections have to be filled by the person who is responsible for solving the bug._"
+    value: "_The following sections have to be filled by the person who is responsible for this issue._"
 - type: textarea
   attributes:
     label: Execution
     description: (TO BE FILLED BY ASSIGNEE)
-    placeholder: Provide a brief summary of the final decision and, if applicable, of the final solution and its outcome.
+    placeholder: Provide a brief summary of the steps taken and, if applicable, the outcome. If the outcome is e.g. a response to an e-mail close the issue but move it to "In Review"
   validations:
     required: false
 - type: textarea
