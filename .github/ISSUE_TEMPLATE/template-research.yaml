@@ -1,0 +1,49 @@
+name: '🔎🔬 Research'
+description: 'Anything research related regarding the project; e.g.: create the part list and search for suitable vendors'
+title: '[Research] '
+labels: 'Research'
+
+
+body:
+- type: markdown
+  attributes:
+    value: "To expedite issue processing, please search open and closed issues before submitting a new one. Please read our Rules of Conduct at this repository's `.github/CODE_OF_CONDUCT.md`"
+- type: markdown
+  attributes:
+    value: "# 🔎🔬 Research"
+- type: input
+  attributes:
+    label: Source
+    description: Where the this issue/request originates from. E.g. a meeting, suggestions from third parties, other inspiration etc.
+    placeholder: "e.g. 'Meeting with xyz, link:"
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Objective
+    description: Provide a clear and concise description of the task at hand.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Additional Information
+    description: Include any additional information or context that might be helpful for reviewers or asignees.
+  validations:
+    required: false
+- type: markdown
+  attributes:
+    value: "_The following sections have to be filled by the person who is responsible for this issue._"
+- type: textarea
+  attributes:
+    label: Execution
+    description: (TO BE FILLED BY ASSIGNEE)
+    placeholder: Provide a brief summary of the steps taken and, if applicable, the outcome.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Solution Path
+    description: (TO BE FILLED BY ASSIGNEE)
+    placeholder: If the task is more involved; Use the `add tasklist` feature for easy planning.
+  validations:
+    required: false
