@@ -1,6 +1,6 @@
 name: '🚀🌟 Enhancement Request'
-description: 'Suggest an enhancement for this project.'
-title: '[Enhancement] '
+description: 'Anything networking related regarding the project; e.g.: Connecting with other clubs/individuals/sponsors, planning events etc.'
+title: '[Networking] '
 #labels: ['Topic: Enhancement', 'Status: In Triage']
 #projects: ["sendance/4"]
 #assignees:
@@ -11,7 +11,7 @@ body:
     value: "To expedite issue processing, please search open and closed issues before submitting a new one. Please read our Rules of Conduct at this repository's `.github/CODE_OF_CONDUCT.md`"
 - type: markdown
   attributes:
-    value: "# 🚀🆕 Enhancement Request"
+    value: "# 🌐🤝 Networking"
 - type: input
   attributes:
     label: Source Type
@@ -28,39 +28,8 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: Description
-    description: Provide a clear and concise description of the enhancement you are requesting.
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Problem Statement
-    description: |
-      Explain the problem or limitation that this enhancement would address. Provide context and examples to help others understand the need for this enhancement.
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Current Functionality
-    description:  Describe the current functionality or feature that the enhancement would build upon or improve. Explain any specific areas or aspects that you believe can be enhanced.
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Proposed Enhancement
-    description:  Describe your proposed enhancement in detail. Include any specific features, improvements, or changes that you would like to see. Provide examples or use cases to illustrate how the enhancement would benefit users.
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Alternatives Considered
-    description: If you have considered any alternative approaches or solutions, mention them here and provide reasons why you believe your proposed enhancement is the most suitable.
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Media
-    description: If applicable, include screenshots or GIFs to help understanding how the enhancement should look like (e.g. design draft, screenshots) or how it should work (e.g. flow diagram).
+    label: Objective
+    description: Provide a clear and concise description of the task at hand.
   validations:
     required: false
 - type: textarea
@@ -74,15 +43,15 @@ body:
     value: "_The following sections have to be filled by the person who is responsible for solving the bug._"
 - type: textarea
   attributes:
-    label: Solution Summary
-    description: (TO BE FILLED BY ENGINEER)
+    label: Execution
+    description: (TO BE FILLED BY ASSIGNEE)
     placeholder: Provide a brief summary of the final decision and, if applicable, of the final solution and its outcome.
   validations:
     required: false
 - type: textarea
   attributes:
     label: Solution Path
-    description: (TO BE FILLED BY ENGINEER)
-    placeholder: As engineer, after creating the PBI, use the `Add tasklist` feature to add your new/planned/already defined SBIs.
+    description: (TO BE FILLED BY ASSIGNEE)
+    placeholder: If the task is more envolved than writing one email or equivalent, the solution path should be outlined. Use the `add tasklist` feature for easy planning.
   validations:
     required: false
