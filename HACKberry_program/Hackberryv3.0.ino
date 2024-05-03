@@ -7,12 +7,12 @@
 
 //Settings
 const boolean isRight = 1;//right:1, left:0
-const int outThumbMax = 140;//right:open, left:close
+const int outThumbMax = 65;//right:open, left:close
 const int outIndexMax = 130;//right:open, left:close
 const int outOtherMax = 145;//right:open, left:close
-const int outThumbMin = 47;//right:close, left:open
-const int outIndexMin = 27;//right:close, left:open
-const int outOtherMin = 105;//right:close, left:open
+const int outThumbMin = -21;//right:close, left:open
+const int outIndexMin = 13;//right:close, left:open
+const int outOtherMin = 95;//right:close, left:open
 const int speedMax = 6;
 const int speedMin = 0;
 const int speedReverse = -3;
